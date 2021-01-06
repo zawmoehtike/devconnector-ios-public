@@ -1,0 +1,6 @@
+framework module Pods_devrconnector {
+  umbrella header "Pods-devrconnector-umbrella.h"
+
+  export *
+  module * { export * }
+}

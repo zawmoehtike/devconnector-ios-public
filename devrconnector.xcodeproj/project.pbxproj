@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32A795145D64FE0017E52D6 /* Pods_devrconnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05DD30E7C3DEC8E4CC9105 /* Pods_devrconnector.framework */; };
+		AF50226825A051BA009BEBBC /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50226725A051BA009BEBBC /* BaseApiClient.swift */; };
+		AF50227325A0553E009BEBBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50227225A0553E009BEBBC /* Constants.swift */; };
+		AF50227725A055E8009BEBBC /* iApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50227625A055E8009BEBBC /* iApiClient.swift */; };
+		AF50227A25A0562F009BEBBC /* SharedApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50227925A0562F009BEBBC /* SharedApiClient.swift */; };
+		AF50227D25A066B8009BEBBC /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50227C25A066B8009BEBBC /* BaseViewModel.swift */; };
+		AF88EF61259F4BDC003086E5 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF88EF60259F4BDC003086E5 /* Todo.txt */; };
+		AF88EF66259F4EAC003086E5 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF65259F4EAC003086E5 /* UsersViewController.swift */; };
+		AF88EF6A259F53E2003086E5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF69259F53E2003086E5 /* UserViewModel.swift */; };
+		AF88EF71259F5BE0003086E5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF70259F5BE0003086E5 /* Extensions.swift */; };
+		AF88EF77259F5D21003086E5 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF75259F5D21003086E5 /* NewsTableViewCell.swift */; };
+		AF88EF78259F5D21003086E5 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF88EF76259F5D21003086E5 /* NewsTableViewCell.xib */; };
+		AF88EF7D259F5D5A003086E5 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF7B259F5D5A003086E5 /* UsersTableViewCell.swift */; };
+		AF88EF7E259F5D5A003086E5 /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF88EF7C259F5D5A003086E5 /* UsersTableViewCell.xib */; };
+		AF88EF87259F6FDF003086E5 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF86259F6FDF003086E5 /* ErrorResponse.swift */; };
+		AF88EF8A259F7004003086E5 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF89259F7004003086E5 /* UsersResponse.swift */; };
+		AF88EF8D259F70B9003086E5 /* UserVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF8C259F70B9003086E5 /* UserVO.swift */; };
+		AF88EF90259F7107003086E5 /* NewVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF8F259F7107003086E5 /* NewVO.swift */; };
+		AF88EF93259F7120003086E5 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF92259F7120003086E5 /* NewsResponse.swift */; };
+		AF88EF96259F7159003086E5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF95259F7159003086E5 /* LoginResponse.swift */; };
+		AF88EF99259F716F003086E5 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF98259F716F003086E5 /* RegisterResponse.swift */; };
+		AF88EF9C259F71AF003086E5 /* LoginVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF9B259F71AF003086E5 /* LoginVO.swift */; };
+		AF88EF9F259F71CE003086E5 /* RegisterVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EF9E259F71CE003086E5 /* RegisterVO.swift */; };
+		AF88EFA5259F7640003086E5 /* UserNameVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88EFA4259F7640003086E5 /* UserNameVO.swift */; };
+		AFFF9AA2259A452C0003788F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AA1259A452C0003788F /* AppDelegate.swift */; };
+		AFFF9AA4259A452C0003788F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AA3259A452C0003788F /* SceneDelegate.swift */; };
+		AFFF9AA9259A452C0003788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFF9AA7259A452C0003788F /* Main.storyboard */; };
+		AFFF9AAB259A452D0003788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFF9AAA259A452D0003788F /* Assets.xcassets */; };
+		AFFF9AAE259A452D0003788F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFF9AAC259A452D0003788F /* LaunchScreen.storyboard */; };
+		AFFF9ABA259A45BF0003788F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AB9259A45BF0003788F /* LoginViewModel.swift */; };
+		AFFF9ABE259A45DE0003788F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9ABD259A45DE0003788F /* LoginViewController.swift */; };
+		AFFF9AC1259A45F20003788F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AC0259A45F20003788F /* NewsViewController.swift */; };
+		AFFF9AC4259A46070003788F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AC3259A46070003788F /* RegisterViewController.swift */; };
+		AFFF9AC7259A46250003788F /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFF9AC6259A46250003788F /* Auth.storyboard */; };
+		AFFF9ACA259A464D0003788F /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9AC9259A464D0003788F /* NewsViewModel.swift */; };
+		AFFF9ACD259A465E0003788F /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF9ACC259A465E0003788F /* RegisterViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D05DD30E7C3DEC8E4CC9105 /* Pods_devrconnector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devrconnector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6119A926B08FF70330666202 /* Pods-devrconnector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devrconnector.release.xcconfig"; path = "Target Support Files/Pods-devrconnector/Pods-devrconnector.release.xcconfig"; sourceTree = "<group>"; };
+		768E2FFD1BD3E98960391642 /* Pods-devrconnector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devrconnector.debug.xcconfig"; path = "Target Support Files/Pods-devrconnector/Pods-devrconnector.debug.xcconfig"; sourceTree = "<group>"; };
+		AF50226725A051BA009BEBBC /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		AF50227225A0553E009BEBBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF50227625A055E8009BEBBC /* iApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iApiClient.swift; sourceTree = "<group>"; };
+		AF50227925A0562F009BEBBC /* SharedApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedApiClient.swift; sourceTree = "<group>"; };
+		AF50227C25A066B8009BEBBC /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		AF88EF60259F4BDC003086E5 /* Todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
+		AF88EF65259F4EAC003086E5 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		AF88EF69259F53E2003086E5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		AF88EF70259F5BE0003086E5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF88EF75259F5D21003086E5 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AF88EF76259F5D21003086E5 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		AF88EF7B259F5D5A003086E5 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		AF88EF7C259F5D5A003086E5 /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
+		AF88EF86259F6FDF003086E5 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		AF88EF89259F7004003086E5 /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		AF88EF8C259F70B9003086E5 /* UserVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVO.swift; sourceTree = "<group>"; };
+		AF88EF8F259F7107003086E5 /* NewVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVO.swift; sourceTree = "<group>"; };
+		AF88EF92259F7120003086E5 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		AF88EF95259F7159003086E5 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		AF88EF98259F716F003086E5 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		AF88EF9B259F71AF003086E5 /* LoginVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVO.swift; sourceTree = "<group>"; };
+		AF88EF9E259F71CE003086E5 /* RegisterVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVO.swift; sourceTree = "<group>"; };
+		AF88EFA4259F7640003086E5 /* UserNameVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameVO.swift; sourceTree = "<group>"; };
+		AFFF9A9E259A452C0003788F /* devrconnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devrconnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFF9AA1259A452C0003788F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFFF9AA3259A452C0003788F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFFF9AA8259A452C0003788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFF9AAA259A452D0003788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFFF9AAD259A452D0003788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFFF9AAF259A452D0003788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFF9AB9259A45BF0003788F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AFFF9ABD259A45DE0003788F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFFF9AC0259A45F20003788F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		AFFF9AC3259A46070003788F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AFFF9AC6259A46250003788F /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		AFFF9AC9259A464D0003788F /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		AFFF9ACC259A465E0003788F /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFF9A9B259A452C0003788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32A795145D64FE0017E52D6 /* Pods_devrconnector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C66B2722B4F5EA3D1E57BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768E2FFD1BD3E98960391642 /* Pods-devrconnector.debug.xcconfig */,
+				6119A926B08FF70330666202 /* Pods-devrconnector.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF88EF53259F30EC003086E5 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF9AC6259A46250003788F /* Auth.storyboard */,
+				AFFF9AA7259A452C0003788F /* Main.storyboard */,
+				AFFF9AAC259A452D0003788F /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		AF88EF73259F5C5A003086E5 /* local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		AF88EF74259F5C71003086E5 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF81259F6F82003086E5 /* networkvo */,
+				AF88EF80259F6F77003086E5 /* response */,
+				AF50226725A051BA009BEBBC /* BaseApiClient.swift */,
+				AF50227625A055E8009BEBBC /* iApiClient.swift */,
+				AF50227925A0562F009BEBBC /* SharedApiClient.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		AF88EF80259F6F77003086E5 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF86259F6FDF003086E5 /* ErrorResponse.swift */,
+				AF88EF89259F7004003086E5 /* UsersResponse.swift */,
+				AF88EF92259F7120003086E5 /* NewsResponse.swift */,
+				AF88EF95259F7159003086E5 /* LoginResponse.swift */,
+				AF88EF98259F716F003086E5 /* RegisterResponse.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		AF88EF81259F6F82003086E5 /* networkvo */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF8C259F70B9003086E5 /* UserVO.swift */,
+				AF88EF8F259F7107003086E5 /* NewVO.swift */,
+				AF88EF9B259F71AF003086E5 /* LoginVO.swift */,
+				AF88EF9E259F71CE003086E5 /* RegisterVO.swift */,
+				AF88EFA4259F7640003086E5 /* UserNameVO.swift */,
+			);
+			path = networkvo;
+			sourceTree = "<group>";
+		};
+		AFFF9A95259A452C0003788F = {
+			isa = PBXGroup;
+			children = (
+				AFFF9AA0259A452C0003788F /* devrconnector */,
+				AFFF9A9F259A452C0003788F /* Products */,
+				88C66B2722B4F5EA3D1E57BD /* Pods */,
+				FA73D79F34491A22CD80634A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFF9A9F259A452C0003788F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF9A9E259A452C0003788F /* devrconnector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFF9AA0259A452C0003788F /* devrconnector */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF53259F30EC003086E5 /* storyboard */,
+				AFFF9AD0259A46880003788F /* util */,
+				AFFF9ACF259A46780003788F /* data */,
+				AFFF9AB8259A458D0003788F /* view */,
+				AFFF9AB7259A457F0003788F /* viewcontroller */,
+				AFFF9AB6259A45500003788F /* viewmodel */,
+				AFFF9AA1259A452C0003788F /* AppDelegate.swift */,
+				AFFF9AA3259A452C0003788F /* SceneDelegate.swift */,
+				AFFF9AAA259A452D0003788F /* Assets.xcassets */,
+				AFFF9AAF259A452D0003788F /* Info.plist */,
+				AF88EF60259F4BDC003086E5 /* Todo.txt */,
+			);
+			path = devrconnector;
+			sourceTree = "<group>";
+		};
+		AFFF9AB6259A45500003788F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF9AB9259A45BF0003788F /* LoginViewModel.swift */,
+				AFFF9AC9259A464D0003788F /* NewsViewModel.swift */,
+				AFFF9ACC259A465E0003788F /* RegisterViewModel.swift */,
+				AF88EF69259F53E2003086E5 /* UserViewModel.swift */,
+				AF50227C25A066B8009BEBBC /* BaseViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		AFFF9AB7259A457F0003788F /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF9ABD259A45DE0003788F /* LoginViewController.swift */,
+				AFFF9AC0259A45F20003788F /* NewsViewController.swift */,
+				AFFF9AC3259A46070003788F /* RegisterViewController.swift */,
+				AF88EF65259F4EAC003086E5 /* UsersViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		AFFF9AB8259A458D0003788F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF75259F5D21003086E5 /* NewsTableViewCell.swift */,
+				AF88EF76259F5D21003086E5 /* NewsTableViewCell.xib */,
+				AF88EF7B259F5D5A003086E5 /* UsersTableViewCell.swift */,
+				AF88EF7C259F5D5A003086E5 /* UsersTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AFFF9ACF259A46780003788F /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF74259F5C71003086E5 /* remote */,
+				AF88EF73259F5C5A003086E5 /* local */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AFFF9AD0259A46880003788F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				AF88EF70259F5BE0003086E5 /* Extensions.swift */,
+				AF50227225A0553E009BEBBC /* Constants.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		FA73D79F34491A22CD80634A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D05DD30E7C3DEC8E4CC9105 /* Pods_devrconnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFF9A9D259A452C0003788F /* devrconnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF9AB2259A452D0003788F /* Build configuration list for PBXNativeTarget "devrconnector" */;
+			buildPhases = (
+				62EFA371792DDD17A7FD96B8 /* [CP] Check Pods Manifest.lock */,
+				AFFF9A9A259A452C0003788F /* Sources */,
+				AFFF9A9B259A452C0003788F /* Frameworks */,
+				AFFF9A9C259A452C0003788F /* Resources */,
+				06B3D93DA4122724904F6367 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = devrconnector;
+			productName = devrconnector;
+			productReference = AFFF9A9E259A452C0003788F /* devrconnector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFF9A96259A452C0003788F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AFFF9A9D259A452C0003788F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = AFFF9A99259A452C0003788F /* Build configuration list for PBXProject "devrconnector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFF9A95259A452C0003788F;
+			productRefGroup = AFFF9A9F259A452C0003788F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFF9A9D259A452C0003788F /* devrconnector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFF9A9C259A452C0003788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF88EF7E259F5D5A003086E5 /* UsersTableViewCell.xib in Resources */,
+				AF88EF61259F4BDC003086E5 /* Todo.txt in Resources */,
+				AFFF9AC7259A46250003788F /* Auth.storyboard in Resources */,
+				AFFF9AAE259A452D0003788F /* LaunchScreen.storyboard in Resources */,
+				AFFF9AAB259A452D0003788F /* Assets.xcassets in Resources */,
+				AF88EF78259F5D21003086E5 /* NewsTableViewCell.xib in Resources */,
+				AFFF9AA9259A452C0003788F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B3D93DA4122724904F6367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devrconnector/Pods-devrconnector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devrconnector/Pods-devrconnector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devrconnector/Pods-devrconnector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EFA371792DDD17A7FD96B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devrconnector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFF9A9A259A452C0003788F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF88EF87259F6FDF003086E5 /* ErrorResponse.swift in Sources */,
+				AFFF9ABA259A45BF0003788F /* LoginViewModel.swift in Sources */,
+				AF88EF6A259F53E2003086E5 /* UserViewModel.swift in Sources */,
+				AF50227A25A0562F009BEBBC /* SharedApiClient.swift in Sources */,
+				AF88EF77259F5D21003086E5 /* NewsTableViewCell.swift in Sources */,
+				AF88EF7D259F5D5A003086E5 /* UsersTableViewCell.swift in Sources */,
+				AF88EF90259F7107003086E5 /* NewVO.swift in Sources */,
+				AFFF9AC4259A46070003788F /* RegisterViewController.swift in Sources */,
+				AFFF9ACA259A464D0003788F /* NewsViewModel.swift in Sources */,
+				AFFF9AA2259A452C0003788F /* AppDelegate.swift in Sources */,
+				AF50227725A055E8009BEBBC /* iApiClient.swift in Sources */,
+				AF88EF93259F7120003086E5 /* NewsResponse.swift in Sources */,
+				AF50226825A051BA009BEBBC /* BaseApiClient.swift in Sources */,
+				AF88EF9C259F71AF003086E5 /* LoginVO.swift in Sources */,
+				AF88EFA5259F7640003086E5 /* UserNameVO.swift in Sources */,
+				AFFF9ABE259A45DE0003788F /* LoginViewController.swift in Sources */,
+				AFFF9AA4259A452C0003788F /* SceneDelegate.swift in Sources */,
+				AF50227D25A066B8009BEBBC /* BaseViewModel.swift in Sources */,
+				AFFF9ACD259A465E0003788F /* RegisterViewModel.swift in Sources */,
+				AF88EF66259F4EAC003086E5 /* UsersViewController.swift in Sources */,
+				AF50227325A0553E009BEBBC /* Constants.swift in Sources */,
+				AF88EF96259F7159003086E5 /* LoginResponse.swift in Sources */,
+				AF88EF9F259F71CE003086E5 /* RegisterVO.swift in Sources */,
+				AF88EF71259F5BE0003086E5 /* Extensions.swift in Sources */,
+				AFFF9AC1259A45F20003788F /* NewsViewController.swift in Sources */,
+				AF88EF99259F716F003086E5 /* RegisterResponse.swift in Sources */,
+				AF88EF8D259F70B9003086E5 /* UserVO.swift in Sources */,
+				AF88EF8A259F7004003086E5 /* UsersResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFFF9AA7259A452C0003788F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFF9AA8259A452C0003788F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFFF9AAC259A452D0003788F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFF9AAD259A452D0003788F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFF9AB0259A452D0003788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFFF9AB1259A452D0003788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFF9AB3259A452D0003788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768E2FFD1BD3E98960391642 /* Pods-devrconnector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8UX56SWVV;
+				INFOPLIST_FILE = devrconnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zawmoehtike.devrconnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFFF9AB4259A452D0003788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6119A926B08FF70330666202 /* Pods-devrconnector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8UX56SWVV;
+				INFOPLIST_FILE = devrconnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zawmoehtike.devrconnector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFF9A99259A452C0003788F /* Build configuration list for PBXProject "devrconnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF9AB0259A452D0003788F /* Debug */,
+				AFFF9AB1259A452D0003788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF9AB2259A452D0003788F /* Build configuration list for PBXNativeTarget "devrconnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF9AB3259A452D0003788F /* Debug */,
+				AFFF9AB4259A452D0003788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFF9A96259A452C0003788F /* Project object */;
+}
